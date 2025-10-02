@@ -25,7 +25,7 @@ public class TestStats {
             if (score > high) {
                 high = score;
             }
-            if (score > low) {
+            if (score < low) {
                 low = score;
             }
         }
